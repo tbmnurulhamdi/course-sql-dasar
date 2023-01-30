@@ -29,5 +29,38 @@ $ sudo /opt/lampp/lampp start
  XAMPP: Starting MySQL…ok.
  XAMPP: Starting ProFTPD…ok.
 ```
+**MySQL** menggunakan bahasa SQL (Structured Query Language) untuk melakukan operasi data seperti menambah, merubah, menghapus dan sebagainya.
 
+mengakses MYSQL bisa menggunakan GUI yaitu dengan `http://localhost/phpmyadmin/` dan bisa mengakses melalui terminal / command prompt.
 
+#### di linux
+
+```
+cd /opt/lampp/bin/
+./mysql -u root -p
+```
+
+#### di windows
+
+```
+cd c:\xampp\mysql\bin 
+mysql.exe -u root -p
+```
+
+Dalam SQL terdapat 5 istilah perintah untuk manipulasi data yaitu:
+
+1. **Data Definition Language** (DDL)
+2. **Data Manipulation Language** (DML)
+3. **Data Query Language** (DQL)
+4. **Data Control Language** (DCL)
+5. **Transaction Control Language** (TCL)
+
+### DDL, DML, DQL, DCL, TCL
+
+**Data Manipulation Language** (DML) adalah perintah SQL untuk manipulasi data dalam table
+
+**Data Query Language** (DQL) adalah perintah SQL untuk query data
+
+**Data Control Language** (DCL) adalah perintah SQL untuk kontrol dan permission database
+
+**Transaction Control Language** (TCL) adalah perintah SQL yang berhubungan dengan transaksi di database
