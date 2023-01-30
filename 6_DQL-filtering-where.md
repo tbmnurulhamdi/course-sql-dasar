@@ -59,6 +59,5 @@ Klausa WHERE dapat dikombinasikan dengan operator **LIKE** untuk mencari data ya
 ```
 SELECT * FROM mahasiswa WHERE nama LIKE '%an%';
 ```
-\
 
 
