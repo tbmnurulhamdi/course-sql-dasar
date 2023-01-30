@@ -1,4 +1,4 @@
-# DDL pada Table
+# 3. DDL pada Table
 
 **Data Definition Language (DDL)** merupakan perintah SQL untuk membuat, merubah atau menghapus struktur table.
 

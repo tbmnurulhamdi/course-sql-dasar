@@ -1,4 +1,4 @@
-# 1. Perintah DDL pada Database
+# 2. Perintah DDL pada Database
 
 **Data Definition Language (DDL)** merupakan perintah SQL untuk membuat, merubah atau menghapus struktur database.
 
