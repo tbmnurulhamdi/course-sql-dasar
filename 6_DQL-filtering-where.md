@@ -17,9 +17,9 @@ operasi logika
 | Operator   | Penjelasan    |
 |--------------- | --------------- |
 | NOT atau !   |  Logika bukan  |
-| AND atau &&   | Logika dan   |
-| OR atau || Logika atau   |
-| XOR   | Logika bukan atau (XOR)   |
+| AND atau &&   |  Logika dan   |
+| OR atau |  Logika atau   |
+| XOR   |  Logika bukan atau (XOR)   |
 
 Operasi Perbandingan
 | Operator   | Penjelasan    |
@@ -42,20 +42,20 @@ Contoh, mencari data mahasiswa yang bernama anto dan beralamat semarang
 ```
 SELECT * FROM mahasiswa WHERE nama="anto" AND alamat="semarang";
 ```
-Operator AND akan menghasilkan nilai TRUE jika kedua pernyataan bernilai benar dan FALSE jika salah
+Operator **AND** akan menghasilkan nilai TRUE jika kedua pernyataan bernilai benar dan FALSE jika salah
 
 Jika kita mencari data mahasiswa yang bernama anto atau mahasiswa yang beralamat jakarta
 ```
 SELECT * FROM mahasiswa WHERE nama="anto" OR alamat="jakarta";
 ```
-Maka dengan operator OR akan dicari data mahasiswa yang bernama anto dan mahasiswa yang berasal dari jakarta
+Maka dengan operator **OR** akan dicari data mahasiswa yang bernama anto dan mahasiswa yang berasal dari jakarta
 
-Operator NOT akan menghasilkan nilai TRUE jika pernyataan bernilai salah. Contoh, mencari data mahasiswa yang tidak bernama anto
+Operator **NOT** akan menghasilkan nilai TRUE jika pernyataan bernilai salah. Contoh, mencari data mahasiswa yang tidak bernama anto
 ```
 SELECT * FROM mahasiswa WHERE NOT nama="anto";
 ```
 
-Klausa WHERE dapat dikombinasikan dengan operator LIKE untuk mencari data yang lebih spesifik berdasarkan pola. Contoh, Mencari data mahasiswa yang mempunyai nama dengan pola ‘an’
+Klausa WHERE dapat dikombinasikan dengan operator **LIKE** untuk mencari data yang lebih spesifik berdasarkan pola. Contoh, Mencari data mahasiswa yang mempunyai nama dengan pola ‘an’
 ```
 SELECT * FROM mahasiswa WHERE nama LIKE '%an%';
 ```
