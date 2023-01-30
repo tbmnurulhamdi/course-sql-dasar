@@ -26,7 +26,9 @@ CREATE DATABASE nama_database;
 ```
 
 Contoh membuat database **universitas**
-`CREATE DATABASE universitas;`
+```
+CREATE DATABASE universitas;
+```
 
 ### perintah USE
 
@@ -37,7 +39,9 @@ Sebelum membuat table, kita harus memilih database yang akan di eksekusi yaitu d
 use nama_database;
 ```
 Contoh memilih database **universitas**
-`use universitas;`
+```
+use universitas;
+```
 
 ### perintah DROP
 
